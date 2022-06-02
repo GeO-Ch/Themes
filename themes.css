@@ -1,0 +1,17 @@
+/*Themes*/
+.dark_flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background-color: #000000b4;
+    padding: 2%;
+    color: rgb(255, 255, 255);
+}
+
+
+
+

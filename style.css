@@ -1,0 +1,120 @@
+/*Font for everything*/
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.darkbody{
+    background-color: #dbf6ff;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background-color: #a2e8ff8b;
+    padding: 2%;
+}
+
+/*Button styles*/
+.bright_btn{
+    background-color: #fffffffb;
+    color: black;
+    font-size: 20px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    padding: 8px;
+    margin-right: 10px;
+    transition-duration: 0.4s;
+}
+
+.bright_btn:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.dark_btn{
+    background-color: #3b3b3b;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    padding: 8px;
+    margin-right: 10px;
+    transition-duration: 0.4s;
+}
+
+.dark_btn:hover{
+    background-color: #fbfbfb;
+    color: rgb(0, 0, 0);
+}
+
+.cyan_btn{
+    background-color: #42cbf9;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    padding: 8px;
+    margin-right: 10px;
+    transition-duration: 0.4s;
+}
+
+.cyan_btn:hover{
+    background-color: #76dbfd;
+    color: rgb(70, 70, 70);
+}
+
+/*Theme header animation*/
+#theme{
+margin: 1%;
+position: absolute;
+animation-name: move;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+@keyframes move{
+    0%   {color:rgb(255, 0, 30); left:0px; top:0px;}
+    25%  {color:rgb(255, 255, 83); left:50px; top:0px;}
+    50%  {color:rgb(73, 73, 255); left:50px; top:50px;}
+    75%  {color:rgb(116, 255, 116); left:0px; top:50px;}
+    100% {color:rgb(255, 0, 30); left:0px; top:0px;}
+}
+
+/*Footer icons*/
+.fa{
+    margin: 5px;
+    padding: 12px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.fa-facebook {
+  background: #2c4272;
+  color: white;
+}
+
+.fa-linkedin {
+    background: #2c4272;
+    color: white;
+}
+
+.fa-github {
+    background: #2c4272;
+    color: white;
+}
+
+.fa:hover {
+    background-color: #ffffff;
+    color: #2c4272;
+}
